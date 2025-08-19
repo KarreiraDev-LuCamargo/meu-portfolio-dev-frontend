@@ -94,6 +94,41 @@ _(Links and images will be added as projects are completed)_
 
 ---
 
+## Estrutura do Projeto
+
+meu-portfolio-dev-frontend/
+│
+├── index.html
+├── style.css
+├── README.md
+├── README.en.md
+│
+├── src/
+│   └── assets/
+│       └── img/
+│           ├── logo.webp
+│           ├── euzinho1.webp
+│           ├── html.webp
+│           ├── css.webp
+│           ├── js.webp
+│           ├── Bootstrap1.webp
+│           ├── Tailwindcss1.webp
+│           ├── nodejs1.webp
+│           ├── Reactjs2.webp
+│           ├── Angular.webp
+│           ├── VueJs1.webp
+│           ├── ideia.webp
+│           ├── TS_TypeScript.webp
+│           ├── fontawesome.webp
+│           ├── seo.webp
+│           ├── auto.webp
+│           └── banner1.png
+│
+└── fontawesome/   (❓ opcional se usar offline)
+    └── css/
+        └── all.min.css
+
+
 ## 📫 Contact
 
 - **GitHub:** [@KarreiraDev-LuCamargo](https://github.com/KarreiraDev-LuCamargo)  
