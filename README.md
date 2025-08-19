@@ -44,7 +44,7 @@ timeline
 
 ---
 <p align="center">
-  <img src="./src/assets/img/banner1.png" alt="Banner Luciano Camargo - Frontend Developer" width="100%" />
+  <img src="./src/assets/img/screenshot-home.png" alt="Preview do Portfólio" width="80%" />
 </p>
 
 ## 🛠 Tecnologias e Ferramentas
@@ -91,6 +91,40 @@ _(Os links e imagens serão adicionados à medida que os projetos forem concluí
 | Portfólio | Página pessoal responsiva  | HTML, CSS, JS | [Ver online](https://karreiradev.lucamargo.github.io/meu-portfolio-dev-frontend/) |
 
 ---
+## Estrutura do projeto
+
+meu-portfolio-dev-frontend/
+│
+├── index.html
+├── style.css
+├── README.md
+├── README.en.md
+│
+├── src/
+│   └── assets/
+│       └── img/
+│           ├── logo.webp
+│           ├── euzinho1.webp
+│           ├── html.webp
+│           ├── css.webp
+│           ├── js.webp
+│           ├── Bootstrap1.webp
+│           ├── Tailwindcss1.webp
+│           ├── nodejs1.webp
+│           ├── Reactjs2.webp
+│           ├── Angular.webp
+│           ├── VueJs1.webp
+│           ├── ideia.webp
+│           ├── TS_TypeScript.webp
+│           ├── fontawesome.webp
+│           ├── seo.webp
+│           ├── auto.webp
+│           └── banner1.png
+│
+└── fontawesome/   (❓ opcional se usar offline)
+    └── css/
+        └── all.min.css
+
 
 ## 📫 Contato
 
