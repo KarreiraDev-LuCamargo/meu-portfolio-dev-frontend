@@ -495,5 +495,13 @@
     "vivem",
     "vivência",
     "você"
-  ]
+  ],
+  "cSpell.customDictionaries": {
+    "custom-dictionary-workspace": {
+      "name": "custom-dictionary-workspace",
+      "path": "${workspaceFolder:Portfolio-KarreiraDev-LuCamargo}/.cspell/custom-dictionary-workspace.txt",
+      "addWords": true,
+      "scope": "workspace"
+    }
+  }
 }
