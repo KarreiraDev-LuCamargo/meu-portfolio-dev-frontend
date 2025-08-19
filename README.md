@@ -88,7 +88,7 @@ _(Os links e imagens serão adicionados à medida que os projetos forem concluí
 
 | Projeto   | Descrição                  | Tecnologias   | Demo |
 |-----------|----------------------------|---------------|------|
-| Portfólio | Página pessoal responsiva  | HTML, CSS, JS | [Ver online](https://lucamargo220863.github.io/meu-portfolio-dev-frontend/) |
+| Portfólio | Página pessoal responsiva  | HTML, CSS, JS | [Ver online](https://karreiradev.lucamargo.github.io/meu-portfolio-dev-frontend/) |
 
 ---
 
