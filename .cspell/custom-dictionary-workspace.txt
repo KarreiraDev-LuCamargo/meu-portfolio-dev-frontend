@@ -10,6 +10,7 @@ ANIMAÇÃO
 Aplica
 áreas
 arredondadas
+ativada
 Aumenta
 borda
 Bordas
@@ -29,7 +30,9 @@ entrada
 escuras
 escuro
 fixo
+fontawesome
 fonte
+futuros
 Garante
 genérica
 geral
@@ -55,11 +58,15 @@ necessário
 Ocupa
 padrão
 passar
+poderá
 pontuais
+porém
 posição
 primaria
 proporção
 Quebra
+quiser
+Reactjs
 restante
 rolar
 sobreposto
