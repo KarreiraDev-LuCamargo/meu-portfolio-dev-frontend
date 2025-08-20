@@ -1,6 +1,8 @@
 # Custom Dictionary Words
 acima
+adicionada
 Ajusta
+Ajuste
 Alinha
 Amplia
 ampliada
@@ -18,12 +20,14 @@ cálculo
 Centraliza
 centro
 cinza
+classe
 desfoque
 deslocado
 destaque
 destaques
 detalhes
 dinamicamente
+distorção
 efeito
 Efeito
 entrada
@@ -57,6 +61,7 @@ Muda
 necessário
 Ocupa
 padrão
+padronizada
 passar
 poderá
 pontuais
