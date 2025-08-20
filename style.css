@@ -126,6 +126,28 @@ main {
   /* Espaço entre cards */
 }
 
+/* GRID RESPONSIVO PARA OS CARDS */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  justify-items: center; /* centraliza os cards */
+}
+
+/* Ajuste fino para tablets */
+@media (max-width: 1024px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Ajuste fino para mobile */
+@media (max-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
 .card {
   background: var(--cor-card);
   border-radius: 10px;
@@ -162,9 +184,17 @@ main {
 
 .card-image img {
   width: 250px;
-    height: 250px;
+  height: 250px;
   display: block;
+  margin: 0 auto; /* Centraliza todas as imagens */
   transition: transform 0.4s ease;
+  object-fit: cover; /* Garante proporção sem distorção */
+}
+
+/* Foto de perfil padronizada mas com estilo extra */
+#foto-perfil {
+  border-radius: 20%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Texto sobreposto (overlay) */
