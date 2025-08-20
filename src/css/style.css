@@ -126,12 +126,18 @@ main {
   /* Espaço entre cards */
 }
 
+/*grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); → cria um grid que automaticamente se ajusta ao tamanho da tela.
+
+justify-items: center; → garante que todos os cards fiquem centralizados.
+
+Breakpoints (@media) controlam quando reduzir para 2 ou 1 coluna.*/
 /* GRID RESPONSIVO PARA OS CARDS */
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 20px;
-  justify-items: center; /* centraliza os cards */
+  justify-items: center;
+  /* centraliza os cards */
 }
 
 /* Ajuste fino para tablets */
@@ -148,6 +154,10 @@ main {
   }
 }
 
+/*Isso vai deixar o layout bem mais profissional e responsivo, com a mesma pegada de sites modernos.
+
+Quer que eu já integre esse trecho direto no seu style.css completo revisado e te devolva pronto?*/
+
 .card {
   background: var(--cor-card);
   border-radius: 10px;
@@ -156,14 +166,19 @@ main {
   /* Responsivo, mínimo de 250px */
   max-width: 280px;
   padding: 15px;
-  opacity: 0; /* Invisível inicialmente */
+  opacity: 0;
+  /* Invisível inicialmente */
   /* Animação de entrada */
-  transform: translateY(20px); /* Levemente deslocado */
+  transform: translateY(20px);
+  /* Levemente deslocado */
   /* Efeito de entrada */
-  animation: cardFadeIn 0.6s forwards; /* Animação de fade-in */
-  transition: transform 0.3s, box-shadow 0.3s; /* Transição suave */
+  animation: cardFadeIn 0.6s forwards;
+  /* Animação de fade-in */
+  transition: transform 0.3s, box-shadow 0.3s;
+  /* Transição suave */
   /* Efeito de hover */
-  cursor: pointer; /* Muda cursor para indicar interatividade */
+  cursor: pointer;
+  /* Muda cursor para indicar interatividade */
 }
 
 .card:hover {
@@ -186,9 +201,11 @@ main {
   width: 250px;
   height: 250px;
   display: block;
-  margin: 0 auto; /* Centraliza todas as imagens */
+  margin: 0 auto;
+  /* Centraliza todas as imagens */
   transition: transform 0.4s ease;
-  object-fit: cover; /* Garante proporção sem distorção */
+  object-fit: cover;
+  /* Garante proporção sem distorção */
 }
 
 /* Foto de perfil padronizada mas com estilo extra */
@@ -362,6 +379,7 @@ footer a {
 footer a:hover {
   color: #ff6600;
 }
+
 /* ============================
    ÍCONES
    ============================ */
