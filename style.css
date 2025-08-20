@@ -164,7 +164,13 @@ main {
   width: 250px;
     height: 250px;
   display: block;
+   margin: 0 auto; /* Centraliza todas as imagens */
   transition: transform 0.4s ease;
+}
+/* Foto de perfil padronizada mas com estilo extra */
+#foto-perfil {
+  border-radius: 20%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Texto sobreposto (overlay) */
