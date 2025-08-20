@@ -221,7 +221,7 @@ main {
   /* Transição suave */
   cursor: pointer;
   /* Muda cursor para indicar interatividade */
-  font-size: 12px;
+  font-size: 14px;
   /* Tamanho de fonte padrão */
   font-style: italic;
   /* Estilo de fonte itálico */
@@ -237,9 +237,9 @@ strong {
 }
 
 .legenda {
-  font-size: 12px;
+  font-size: 14px;
   /* Tamanho de fonte menor */
-  line-height: 14px;
+  line-height: 15px;
   /* Melhora legibilidade */
   font-weight: 600;
 }
