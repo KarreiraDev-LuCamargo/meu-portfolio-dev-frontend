@@ -36,7 +36,7 @@ body {
    HEADER
    ============================ */
 header.header {
-  background: var(--cor-fundo);
+  background: var(--cor-primaria);
   width: 100%;
   height: auto;
   position: sticky;

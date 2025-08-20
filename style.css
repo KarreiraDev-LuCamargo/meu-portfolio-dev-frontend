@@ -36,7 +36,7 @@ body {
    HEADER
    ============================ */
 header.header {
-  background: var(--cor-fundo);
+  background: var(--cor-primaria);
   width: 100%;
   height: auto;
   position: sticky;
@@ -134,19 +134,14 @@ main {
   /* Responsivo, mínimo de 250px */
   max-width: 280px;
   padding: 15px;
-  opacity: 0;
-  /* Invisível inicialmente */
+  opacity: 0; /* Invisível inicialmente */
   /* Animação de entrada */
-  transform: translateY(20px);
-  /* Levemente deslocado */
+  transform: translateY(20px); /* Levemente deslocado */
   /* Efeito de entrada */
-  animation: cardFadeIn 0.6s forwards;
-  /* Animação de fade-in */
-  transition: transform 0.3s, box-shadow 0.3s;
-  /* Transição suave */
+  animation: cardFadeIn 0.6s forwards; /* Animação de fade-in */
+  transition: transform 0.3s, box-shadow 0.3s; /* Transição suave */
   /* Efeito de hover */
-  cursor: pointer;
-  /* Muda cursor para indicar interatividade */
+  cursor: pointer; /* Muda cursor para indicar interatividade */
 }
 
 .card:hover {
@@ -166,8 +161,8 @@ main {
 }
 
 .card-image img {
-  width: 100%;
-  height: auto;
+  width: 250px;
+    height: 250px;
   display: block;
   transition: transform 0.4s ease;
 }
@@ -337,7 +332,6 @@ footer a {
 footer a:hover {
   color: #ff6600;
 }
-
 /* ============================
    ÍCONES
    ============================ */
