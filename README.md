@@ -25,7 +25,7 @@ Atualizações e melhorias serão adicionadas de forma incremental.
 </p>
 
 ### 🔹 Vídeo completo
-👉 [Assista no YouTube](https://youtu.be/SEU_VIDEO_ID) *(ou substitua pelo link do vídeo .mp4 no repo)*
+👉 [Assista no YouTube](https://www.youtube.com/watch?v=aUmksP8TmUg) *(ou substitua pelo link do vídeo .mp4 no repo)*
 
 ---
 
