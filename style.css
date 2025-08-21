@@ -148,6 +148,7 @@ main {
   }
 }
 
+
 .card {
   background: var(--cor-card);
   border-radius: 10px;
@@ -184,13 +185,11 @@ main {
 
 .card-image img {
   width: 250px;
-  height: 250px;
+    height: 250px;
   display: block;
-  margin: 0 auto; /* Centraliza todas as imagens */
+   margin: 0 auto; /* Centraliza todas as imagens */
   transition: transform 0.4s ease;
-  object-fit: cover; /* Garante proporção sem distorção */
 }
-
 /* Foto de perfil padronizada mas com estilo extra */
 #foto-perfil {
   border-radius: 20%;
@@ -222,7 +221,7 @@ main {
   /* Transição suave */
   cursor: pointer;
   /* Muda cursor para indicar interatividade */
-  font-size: 12px;
+  font-size: 14px;
   /* Tamanho de fonte padrão */
   font-style: italic;
   /* Estilo de fonte itálico */
@@ -238,9 +237,9 @@ strong {
 }
 
 .legenda {
-  font-size: 12px;
+  font-size: 14px;
   /* Tamanho de fonte menor */
-  line-height: 14px;
+  line-height: 15px;
   /* Melhora legibilidade */
   font-weight: 600;
 }
@@ -447,8 +446,3 @@ h2 {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-.navbar-links li a.active {
-  color: var(--cor-primaria);
-  font-weight: bold;
-  border-bottom: 2px solid var(--cor-primaria);
-}
