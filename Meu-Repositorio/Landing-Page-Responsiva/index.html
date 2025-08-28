@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+  <head>
+    <!-- Metadados essenciais -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Landing page moderna e responsiva criada com HTML, Tailwind CSS e JavaScript. Inclui dark mode, menu mobile e design otimizado para portfólio."
+    />
+    <meta
+      name="keywords"
+      content="HTML, TailwindCSS, Landing Page, Responsivo, Dark Mode, Portfólio"
+    />
+    <meta name="author" content="Luciano Camargo - KarreiraDev" />
+
+    <!-- Título e Favicon -->
+    <title>MeuSite - Landing Page Moderna</title>
+    <link
+      rel="shortcut icon"
+      href="../favicon-cubo-metal-AR/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="../favicon-cubo-metal-AR/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="../favicon-cubo-metal-AR/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="../favicon-cubo-metal-AR/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="../favicon-cubo-metal-AR/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="../favicon-cubo-metal-AR/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="../favicon-cubo-metal-AR/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="../favicon-cubo-metal-AR/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="../favicon-cubo-metal-AR/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../favicon-cubo-metal-AR/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="../favicon-cubo-metal-AR/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../favicon-cubo-metal-AR/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="../favicon-cubo-metal-AR/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../favicon-cubo-metal-AR/favicon-16x16.png"
+    />
+    <link rel="manifest" href="../favicon-cubo-metal-AR/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="../favicon-cubo-metal-AR/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="icon" href="https://via.placeholder.com/32" type="image/png" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Estilos customizados -->
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body class="bg-gray-900 text-white transition-colors duration-500">
+    <!-- 🔹 Navbar fixa -->
+    <nav class="fixed top-0 left-0 w-full z-50 bg-[#1f2937] shadow-md">
+      <div class="max-w-7xl mx-auto flex items-center justify-between p-4">
+        <!-- Logo -->
+        <div class="flex items-center space-x-2">
+          <img
+            src="https://via.placeholder.com/40"
+            alt="Logo"
+            class="w-10 h-10"
+          />
+          <span class="text-xl font-bold">MeuSite</span>
+        </div>
+
+        <!-- Links (desktop) -->
+        <div class="hidden md:flex space-x-6">
+          <a href="#home" class="hover:text-blue-400">Lar</a>
+          <a href="#features" class="hover:text-blue-400">Características</a>
+          <a href="#pricing" class="hover:text-blue-400">Preços</a>
+          <a href="#contact" class="hover:text-blue-400">Contato</a>
+        </div>
+
+        <!-- Ações -->
+        <div class="flex items-center space-x-3">
+          <input
+            type="email"
+            placeholder="Seu email"
+            class="input hidden md:block"
+          />
+          <button class="btn-primary hidden md:block">Inscrever-se</button>
+          <!-- Botão dark mode -->
+          <button
+            id="darkToggle"
+            class="p-2 rounded bg-gray-700 hover:bg-gray-600 transition"
+          >
+            🌙
+          </button>
+          <!-- Botão hambúrguer (mobile) -->
+          <button
+            id="menuBtn"
+            class="md:hidden p-2 rounded bg-gray-700 hover:bg-gray-600 transition"
+          >
+            ☰
+          </button>
+        </div>
+      </div>
+
+      <!-- 🔹 Menu Mobile (oculto por padrão) -->
+      <div
+        id="mobileMenu"
+        class="hidden flex-col space-y-2 bg-[#1f2937] p-4 md:hidden transform transition-all duration-500 ease-in-out"
+      >
+        <a href="#home" class="hover:text-blue-400">Lar</a>
+        <a href="#features" class="hover:text-blue-400">Características</a>
+        <a href="#pricing" class="hover:text-blue-400">Preços</a>
+        <a href="#contact" class="hover:text-blue-400">Contato</a>
+        <input type="email" placeholder="Seu email" class="input mt-2" />
+        <button class="btn-primary mt-2">Inscrever-se</button>
+      </div>
+    </nav>
+
+    <!-- 🔹 Conteúdo principal -->
+    <main class="pt-24">
+      <!-- Hero -->
+      <section
+        id="home"
+        class="text-center py-20 bg-gradient-to-r from-blue-600 via-cyan-400 to-purple-600"
+      >
+        <h1 class="text-4xl md:text-6xl font-bold">Bem-vindo ao MeuSite</h1>
+        <p class="mt-4 text-lg">
+          Landing page moderna com Tailwind e JavaScript
+        </p>
+      </section>
+
+      <!-- Features -->
+      <section id="features" class="py-16 max-w-6xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-10">Características</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div class="card">Design Responsivo</div>
+          <div class="card">Modo Escuro</div>
+          <div class="card">Alta Performance</div>
+        </div>
+      </section>
+
+      <!-- Preços -->
+      <section id="pricing" class="py-16 bg-gray-800 text-center">
+        <h2 class="text-3xl font-bold mb-10">Preços</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <div class="card">Plano Básico<br />R$29/mês</div>
+          <div class="card">Plano Pro<br />R$59/mês</div>
+          <div class="card">Plano Premium<br />R$99/mês</div>
+        </div>
+      </section>
+
+      <!-- Contato -->
+      <section id="contact" class="py-16 text-center max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold mb-6">Contato</h2>
+        <input type="text" placeholder="Seu nome" class="input mb-4" />
+        <input type="email" placeholder="Seu email" class="input mb-4" />
+        <textarea placeholder="Sua mensagem" class="input mb-4"></textarea>
+        <button class="btn-primary">Enviar</button>
+      </section>
+    </main>
+
+    <!-- 🔹 Footer fixo -->
+    <footer class="bg-[#1f2937] text-center text-gray-300 py-6">
+      <p>© 2025 MeuSite - Todos os direitos reservados</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+  </body>
+</html>
