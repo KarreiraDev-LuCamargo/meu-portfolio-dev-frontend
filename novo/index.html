@@ -44,7 +44,27 @@
     <!-- Ícone -->
   </head>
   <body>
-    <div id="header"></div>
+    <header class="header">
+      <div class="toolbar">
+        <div class="logo-container">
+          <img
+            id="logo"
+            src="src/assets/img/logo.webp"
+            alt="Foto de Luciano Camargo"
+            class="logo"
+          />
+        </div>
+        <div class="title-container">
+          <h1 class="title-matrix">
+            Portfólio Frontend Júnior <br />
+            Luciano Camargo
+          </h1>
+          <h2 class="subtitle">
+            Projetos, Tecnologias, Conhecimento e Habilidades adquiridas
+          </h2>
+        </div>
+      </div>
+    </header>
 
     <main>
       <section class="fade-in projetos">
@@ -422,7 +442,53 @@
       </section>
     </main>
 
-    <div id="footer"></div>
+    <footer>
+      <p>📫 Contato:</p>
+      <!-- Lista de links do rodapé -->
+      <ul>
+        <li>
+          <a href="#sobre" title="Pasta projeto em construção"
+            ><i class="fa-solid fa-user"></i>Sobre</a
+          >
+        </li>
+
+        <li>
+          <a href="#projetos" title="Pasta projeto em construção"
+            ><i class="fa-solid fa-code"></i>Projetos</a
+          >
+        </li>
+
+        <li>
+          <a
+            href="mailto:karreiradev.lucamargo@gmail.com"
+            title="karreiradev.lucamargo@gmail.com"
+            ><i class="fa-solid fa-envelope"></i>Contato</a
+          >
+        </li>
+
+        <li>
+          <a
+            href="https://github.com/KarreiraDev-LuCamargo/meu-portfolio-dev-frontend"
+            target="_blank"
+            title="Luciano Camargo - GitHub"
+            ><i class="fa-brands fa-github"></i>GitHub</a
+          >
+        </li>
+
+        <li>
+          <a
+            href="https://www.linkedin.com/in/dev-lucianocamargo"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="CarreiraDev.Frontend.LC"
+            ><i class="fa-brands fa-linkedin"></i>LinkedIn</a
+          >
+        </li>
+      </ul>
+
+      <!-- Texto de direitos autorais -->
+      <p>&copy; 2025 Luciano Camargo - Todos os direitos reservados.</p>
+    </footer>
 
     <script>
       /*--*/
@@ -442,6 +508,5 @@
         cards.forEach((card) => observer.observe(card));
       });
     </script>
-      <script src="include-loader.js"></script>
-</body>
+  </body>
 </html>

@@ -1,0 +1,12 @@
+/* Estilo específico deste projeto */
+body {
+  background: #111;
+  color: #e6e6e6;
+  font-family: Arial, sans-serif;
+}
+main h1 {
+  margin-bottom: 10px;
+}
+main p {
+  line-height: 1.6;
+}

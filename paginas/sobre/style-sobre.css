@@ -1,0 +1,93 @@
+/* Fundo gradiente inspirado no banner */
+body {
+  background: linear-gradient(135deg, #0f6bff, #00d4ff, #00ffa3);
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Seção sobre */
+.sobre {
+  padding: 60px 20px;
+  text-align: center;
+}
+.sobre h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+.sobre p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Formulário moderno */
+.contato {
+  padding: 60px 20px;
+  text-align: center;
+}
+.form-contato {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  gap: 15px;
+}
+.form-contato input,
+.form-contato textarea {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+.form-contato button {
+  padding: 14px;
+  background: #6959CD;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+.form-contato button:hover {
+  background: #483D8B;
+}
+
+/* Informações de contato */
+.info-contato {
+  margin-top: 20px;
+  font-size: 1rem;
+}
+.info-contato i {
+  margin-right: 8px;
+  color: #ADD8E6;
+}
+
+/* Mapa */
+.mapa {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.3);
+  font-size: 0.9rem;
+}
+
+/* Ícones de fundo com sombra */
+body::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: url('../img/banner1.png') no-repeat center/cover;
+  opacity: 0.15;
+  box-shadow: 2px 2px 8px #DCDCDC, -2px -2px 8px #6959CD,
+              2px -2px 8px #ADD8E6, -2px 2px 8px #fff;
+  z-index: -1;
+}
