@@ -5,14 +5,10 @@
   --color-red: rgb(255, 0, 0);
   --color-green: rgb(0, 128, 0);
   --color-blue: rgb(0, 0, 255);
-
-  /* Paleta CMYK aproximada */
   --color-cyan: rgb(0, 255, 255);
   --color-magenta: rgb(255, 0, 255);
   --color-yellow: rgb(255, 255, 0);
   --color-black: rgb(0, 0, 0);
-
-  /* Identidade principal */
   --primary: var(--color-blue);
   --secondary: var(--color-cyan);
   --accent: var(--color-magenta);
@@ -26,31 +22,21 @@
   color: white;
 }
 
-.bg-gradient-red-blue {
-  background: linear-gradient(135deg, var(--color-red), var(--color-blue));
-}
-
-.bg-gradient-cyan-magenta {
-  background: linear-gradient(135deg, var(--color-cyan), var(--color-magenta));
-}
-
-.bg-gradient-yellow-cyan {
-  background: linear-gradient(135deg, var(--color-yellow), var(--color-cyan));
-}
-
 /* ===============================
    🔹 Botões
 ================================ */
 .btn-primary {
   background-color: var(--primary);
   color: #fff;
-  padding: 0.5rem 1.25rem;
+  padding: 0.6rem 1.5rem;
   border-radius: 0.5rem;
-  font-weight: bold;
+  font-weight: 600;
+  font-size: 0.9rem;
+  white-space: nowrap;
   transition: background 0.3s ease, transform 0.2s ease;
 }
 .btn-primary:hover {
-  background-color: #1e40af; /* azul mais escuro */
+  background-color: #1e40af;
   transform: scale(1.05);
 }
 
@@ -58,58 +44,54 @@
    🔹 Cards
 ================================ */
 .card {
-  background-color: #1f2937; /* cinza escuro */
-  color: white;
   padding: 2rem;
   border-radius: 1rem;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   transition: transform 0.3s ease;
   text-align: center;
 }
-.card:hover {
-  transform: translateY(-5px);
-}
+.card:hover { transform: translateY(-5px); }
 
 /* ===============================
-   🔹 Inputs e Textarea
+   🔹 Inputs
 ================================ */
 .input {
-  width: 100%;
+  min-width: 220px;
   padding: 0.6rem;
   border-radius: 0.5rem;
   border: 1px solid #444;
-  background-color: #2d3748;
-  color: white;
+  background-color: #f9fafb;
+  color: #111827;
   transition: border 0.3s ease, box-shadow 0.3s ease;
 }
 .input:focus {
   outline: none;
-  border-color: #3b82f6; /* azul claro */
+  border-color: #3b82f6;
   box-shadow: 0 0 6px rgba(59,130,246,0.6);
+}
+.dark .input {
+  background-color: #2d3748;
+  color: white;
+  border: 1px solid #666;
 }
 
 /* ===============================
-   🔹 Footer (corrigido alinhamento)
+   🔹 Footer
 ================================ */
 footer {
-  background-color: #1f2937 !important;
-  display: flex;               /* flexbox */
-  flex-wrap: wrap;             /* quebra linha no mobile */
-  justify-content: center;     /* centraliza horizontal */
-  align-items: center;         /* centraliza vertical */
-  gap: 1rem;                   /* espaçamento entre itens */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
   padding: 1rem;
-  color: #d1d5db;              /* cinza claro */
   text-align: center;
 }
 
 /* ===============================
-   🔹 Menu Mobile (animação suave)
+   🔹 Menu Mobile
 ================================ */
-#mobileMenu {
-  opacity: 0;
-  transform: translateY(-20px);
-}
+#mobileMenu { opacity: 0; transform: translateY(-20px); }
 #mobileMenu.show {
   display: flex !important;
   opacity: 1;
